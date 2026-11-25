@@ -1,0 +1,20 @@
+# Secrets / local config
+*.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# Dify exports may contain keys - review before commit
+# workflow/dsl.yaml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Temp
+tmp/
+*.tmp
+*.log
